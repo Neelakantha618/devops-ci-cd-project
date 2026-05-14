@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "DevOps CI/CD Project Updated!"
+    return "DevOps CI/CD Project Updated Successfully!"
 
 app.run(host='0.0.0.0', port=5000)
